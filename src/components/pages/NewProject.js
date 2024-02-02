@@ -24,7 +24,7 @@ const NewProject = () => {
             },
             body: JSON.stringify(project)
         })
-        .then((resp) => resp.json)
+        .then((resp) => resp.json())
         .then((data) => {
             console.log(data)
             //redirect
