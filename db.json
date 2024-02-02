@@ -1,0 +1,53 @@
+{
+  "projects": [
+    {
+      "id": "7160",
+      "name": "1233",
+      "budget": "13",
+      "cost": 0,
+      "services": []
+    },
+    {
+      "id": "5da6",
+      "name": "Modalidade Ágil",
+      "budget": "13000",
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "cost": 5400,
+      "services": [
+        {
+          "name": "PO",
+          "cost": "2700",
+          "description": "Contratar",
+          "id": "3a68551d-b9a7-4cc6-b5e3-e8ddaa36dfe0"
+        },
+        {
+          "name": "Scrum-Master",
+          "cost": "2700",
+          "description": "Contratar",
+          "id": "5cdaea09-7989-4a23-aded-7c014180cc86"
+        }
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Infra"
+    },
+    {
+      "id": "2",
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": "3",
+      "name": "Design"
+    },
+    {
+      "id": "4",
+      "name": "Planejamento"
+    }
+  ]
+}

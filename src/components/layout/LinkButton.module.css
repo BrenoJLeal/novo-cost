@@ -1,0 +1,14 @@
+.btn{
+    display: flex;
+    align-items: center;
+    background-color: #222;
+    color: #fff;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    transition: 0.5ms;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.btn:hover{
+    color:#ffbb33;
+}
