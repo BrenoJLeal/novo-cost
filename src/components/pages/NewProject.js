@@ -31,7 +31,7 @@ const NewProject = () => {
             const state = { message: "Projeto criado com sucesso!" };
             navigate("/projects", {state});
         })
-        .catch((err) => console.logo(err))
+        .catch((err) => console.log(err))
     }
 
     return ( 
