@@ -9,7 +9,7 @@ const ProjectForm = ({handleSubmit, projectData, btnText}) => {
 
     useEffect(() =>{
         async function fetchData(){
-            await fetch('https://cost-server-kappa.vercel.app/categories',
+            await fetch('http://localhost:5000/categories',
         {
             method:"GET",
             headers: {
