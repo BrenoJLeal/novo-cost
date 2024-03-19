@@ -28,7 +28,7 @@ const Project = () => {
   useEffect(() => {
     setTimeout(async () => {
       await fetch(
-        `https://cost-server-kappa.vercel.app/projects/${projectId}`,
+        `http://localhost:5000/projects/${projectId}`,
         {
           method: "GET",
           headers: {
@@ -54,7 +54,7 @@ const Project = () => {
       setType("error");
       return false;
     }
-    await fetch(`https://cost-server-kappa.vercel.app/projects/${project.id}`, {
+    await fetch(`http://localhost:5000/projects/${project.id}`, {
       method: "PATCH",
       headers: {
         "Content-Type": "application/json",
@@ -114,7 +114,7 @@ const Project = () => {
     setRemainingBudget(remainingBudget);
 
     //Atualização do projeto
-    await fetch(`https://cost-server-kappa.vercel.app/projects/${project.id}`, {
+    await fetch(`http://localhost:5000/projects/${project.id}`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -143,7 +143,7 @@ const Project = () => {
     newProject.cost = parseFloat(newProject.cost) - parseFloat(cost);
 
     await fetch(
-      `https://cost-server-kappa.vercel.app/projects/${newProject.id}`,
+      `http://localhost:5000/projects/${newProject.id}`,
       {
         method: "PATCH",
         headers: {
