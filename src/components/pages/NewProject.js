@@ -15,7 +15,7 @@ const NewProject = () => {
         
         //Adiciona projetos do banco de dados 
 
-        await fetch('https://cost-server-kappa.vercel.app/projects',{
+        await fetch('http://localhost:5000/projects',{
 
 
             method: "POST",
